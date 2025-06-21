@@ -1,0 +1,10 @@
+### Test Email Sending
+POST http://127.0.0.1:8000/send-email/
+Content-Type: application/json
+
+{
+  "subject": "Test Subject",
+  "message": "Hello from Django!",
+  "from_email": "emmanuelmakau90@gmail.com",
+  "to": ["emmanuelmakau53@gmail.com"]
+}
